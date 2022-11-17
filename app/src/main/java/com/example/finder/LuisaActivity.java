@@ -9,6 +9,7 @@ import com.mapbox.maps.Style;
 
 public class LuisaActivity extends AppCompatActivity {
 
+    //usamos el mapbox
     MapView mapView;
 
     @Override
