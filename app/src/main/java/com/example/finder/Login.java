@@ -20,6 +20,7 @@ public class Login extends AppCompatActivity {
         text= findViewById(R.id.tv_register);
         boton= findViewById(R.id.btnlogin);
 
+        //hacemos uso del setOnclick
         boton.setOnClickListener(view -> {
             Intent intent = new Intent(Login.this,MainActivity.class);
             startActivity(intent);
