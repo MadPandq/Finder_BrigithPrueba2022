@@ -50,12 +50,12 @@ public class PersonaAdapter extends RecyclerView.Adapter<ViewHolder>{
             return 0;
         }
     }
-
+//para agregar
     public void addItems(List<Persona> personaList) {
         mPersonaList.addAll(personaList);
         notifyDataSetChanged();
     }
-
+//para eliminar
     public void deleteItem(int position) {
         if (mPersonaList != null & mPersonaList.size() > 0) {
             mPersonaList.remove(position);
